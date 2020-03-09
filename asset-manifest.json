@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ie-blur-demo-react/static/css/main.5f361e03.chunk.css",
+    "main.js": "/ie-blur-demo-react/static/js/main.cf1d0415.chunk.js",
+    "main.js.map": "/ie-blur-demo-react/static/js/main.cf1d0415.chunk.js.map",
+    "runtime-main.js": "/ie-blur-demo-react/static/js/runtime-main.ad192a49.js",
+    "runtime-main.js.map": "/ie-blur-demo-react/static/js/runtime-main.ad192a49.js.map",
+    "static/js/2.1c59cbec.chunk.js": "/ie-blur-demo-react/static/js/2.1c59cbec.chunk.js",
+    "static/js/2.1c59cbec.chunk.js.map": "/ie-blur-demo-react/static/js/2.1c59cbec.chunk.js.map",
+    "index.html": "/ie-blur-demo-react/index.html",
+    "precache-manifest.04cdafb258aa5d7423a74636e5452bd1.js": "/ie-blur-demo-react/precache-manifest.04cdafb258aa5d7423a74636e5452bd1.js",
+    "service-worker.js": "/ie-blur-demo-react/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/ie-blur-demo-react/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.1c59cbec.chunk.js.LICENSE.txt": "/ie-blur-demo-react/static/js/2.1c59cbec.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ie-blur-demo-react/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad192a49.js",
+    "static/js/2.1c59cbec.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.cf1d0415.chunk.js"
+  ]
+}
