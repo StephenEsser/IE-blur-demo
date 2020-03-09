@@ -1,0 +1,23 @@
+.example {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 50px;
+}
+
+.input {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.container {
+  border: 3px dashed;
+  height: 25px;
+  overflow: auto;
+  padding: 5px;
+  width: 100%;
+}
+
+.content {
+  height: 50px;
+}
