@@ -12,12 +12,12 @@
 
 .container {
   border: 3px dashed;
-  height: 25px;
+  height: 75px;
   overflow: auto;
   padding: 5px;
   width: 100%;
 }
 
 .content {
-  height: 50px;
+  height: 100px;
 }
