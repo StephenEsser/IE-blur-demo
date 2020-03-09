@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import './Example.css';
 
+// Polyfills for IE. https://reactjs.org/docs/javascript-environment-requirements.html
+import 'core-js/es/map';
+import 'core-js/es/set';
+
 const Example = () => {
   const [blurCount, setBlurCount] = useState(0);
 
