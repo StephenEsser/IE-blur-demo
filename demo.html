@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="IE blur events demo" />
+  <title>IE Blur Demo</title>
+  <script>
+    var counter = 0;
+
+    function handleBlur() {
+      console.log('Blur');
+      counter++;
+      document.getElementById("blur-count").innerHTML = "Input Blur Count: " + counter;
+    }
+
+    function handleMouseDown(event) {
+      console.log('Mouse Down');
+      event.preventDefault();
+    }
+  </script>
+</head>
+
+<body>
+  <div style="margin-left: auto; margin-right: auto; max-width: 600px; padding: 50px;">
+    <div id="blur-count">Input Blur Count: 0</div>
+    <input onblur="handleBlur()" style="margin-bottom: 5px; margin-top: 5px; width: 100%;">
+    <div style="border-style: dashed; border-width: 3px; height: 75px; overflow: auto; padding: 5px; width: 100%;"
+      onmousedown="handleMouseDown(event)">
+      <div style="height: 100px;">Focus the input. Clicking into this region should not cause the input to blur.</div>
+    </div>
+    <div>
+      <p>Steps to reproduce scrollbar issue. (IE 10/11)</p>
+      <ul>
+        <li>Focus the input by clicking it</li>
+        <li>Click the scrollbar inside of the dashed outlined container above</li>
+        <li>Observe the blur event is always fired</li>
+      </ul>
+      <p>Steps to reproduce blur. (Custom Browser)</p>
+      <ul>
+        <li>Focus the input by clicking it</li>
+        <li>Click anywhere inside the dashed outlined container</li>
+        <li>Observe the blur event is always fired</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>

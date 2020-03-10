@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ie-blur-demo-react/precache-manifest.57265fa0c72301c0689bd0b2fb25cf40.js"
+  "/ie-blur-demo-react/precache-manifest.2c70b0eb8be20a003b59b9476f79b140.js"
 );
 
 self.addEventListener('message', (event) => {
