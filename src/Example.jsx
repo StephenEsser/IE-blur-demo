@@ -29,7 +29,7 @@ const Example = () => {
         </p>
         <ul>
           <li>Focus the input by clicking it</li>
-          <li>(Click the scrollbar inside of the dashed outlined container above</li>
+          <li>Click the scrollbar inside of the dashed outlined container above</li>
           <li>Observe the blur event is always fired</li>
         </ul>
 
