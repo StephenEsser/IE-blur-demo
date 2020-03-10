@@ -1,8 +1,10 @@
-# IE-blur-demo-react
+# IE-blur-demo
 
-This project is used to demonstrate the blur events of React and Internet Explorer.
+This project is used to demonstrate the blur events of Javascript, React, and Internet Explorer.
 
-A live demo is available on [gh-pages](https://stephenesser.github.io/ie-blur-demo-react/).
+A live React demo is available [here](https://stephenesser.github.io/ie-blur-demo-react/).
+
+A live vanilla Javascript demo is available [here](https://stephenesser.github.io/ie-blur-demo-react/demo.html)
 
 ## Issues
 
